@@ -7,10 +7,10 @@ pagination:
   enabled: true
 ---
 <section class="list">
-	{% if site.posts.size == 0 %}
+	{% if site.posts.blog.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.pagination.enabled %}
-		{% for post in paginator.posts %}
+		{% for post in paginator.posts.blog %}
 			{% if post.hidden != true %}
 				{% include blog-post.html %}
 			{% endif %}
@@ -18,7 +18,7 @@ pagination:
 
 		{% include pagination.html%}
 	{% else %}
-		{% for post in site.posts %}
+		{% for post in site.posts.blog %}
 			{% if post.hidden != true %}
 				{% include blog-post.html %}
 			{% endif %}
