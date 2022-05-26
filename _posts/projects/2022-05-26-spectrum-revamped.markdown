@@ -2,7 +2,19 @@
 title: ":musical_note: SpectrumRevamped :musical_note:"
 layout: post
 date: 2022-05-26 18:15
-tag: android, open source, programming, clean code, solid, clean architecture, design patterns, software development, software architecture, android app development, github, android development
+tag:
+- android
+- open source
+- programming
+- clean code
+- solid
+- clean architecture
+- design patterns
+- software development
+- software architecture
+- android app development
+- android development
+- github
 image: https://raw.githubusercontent.com/MKiperszmid/Spectrum/master/Musica/app/src/main/res/drawable/spclogo.png
 headerImage: true
 projects: true
