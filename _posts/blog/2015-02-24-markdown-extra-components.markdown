@@ -9,8 +9,9 @@ tag:
 - components
 - extra
 category: blog
-author: jamesfoster
+author: mkiperszmid
 description: Markdown summary with different options
+hidden: true
 ---
 
 ## Summary:
